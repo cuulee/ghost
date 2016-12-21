@@ -14,6 +14,8 @@ $ cd ghost
 $ now
 ```
 
+> Example: https://now-examples-ghost.now.sh/
+
 You can tweak the `config.js` file and `content` directory to your liking, and
 then re-deploy by running `now` again.
 
