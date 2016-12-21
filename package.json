@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "name": "now-examples-ghost",
+  "description": "Example deployment of a `ghost` blog to Now using npm",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/now-examples/ghost.git"
+  },
+  "keywords": [
+    "now",
+    "deploy",
+    "zeit",
+    "ghost",
+    "blog"
+  ],
+  "author": "Nathan Rajlich <nate@zeit.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/now-examples/ghost/issues"
+  },
+  "homepage": "https://github.com/now-examples/ghost#readme",
+  "engines": {
+    "node": "^6.0.0"
+  },
+  "dependencies": {
+    "ghost": "0.11.3"
+  },
+  "now": {
+    "alias": "now-examples-ghost.now.sh",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+}
