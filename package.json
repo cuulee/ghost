@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/now-examples/ghost#readme",
   "engines": {
-    "ace": "beta"
+    "node": "6"
   },
   "dependencies": {
     "ghost": "0.11.4"
@@ -31,7 +31,6 @@
   "now": {
     "alias": "now-examples-ghost.now.sh",
     "env": {
-      "GHOST_NODE_VERSION_CHECK": "false",
       "NODE_ENV": "production"
     }
   }
